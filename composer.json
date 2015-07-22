@@ -1,0 +1,29 @@
+{
+    "name": "studiow/paginator",
+    "description": "A simple paginator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Willem Wollebrants",
+            "email": "willem@studiow.be"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "studiow/html": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Studiow\\Paginator\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Studiow\\Paginator\\Test\\": "tests"
+        }
+    }
+}
