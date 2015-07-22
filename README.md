@@ -1,4 +1,4 @@
-# Table
+# Paginator
 A simple paginator
 
 ## Usage
